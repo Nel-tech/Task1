@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 70%;
+  margin: 90px auto;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.slackName,
+.slackPicture,
+.slackWeek {
+  padding-bottom: 1rem;
+}
+.slackName,
+.slackWeek,
+.track {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 1rem;
+}
+.display-img {
+  width: 10%;
+  border-radius: 50%;
+}
+.slackWeek p,
+.track p {
+  font-size: 30px;
+}
